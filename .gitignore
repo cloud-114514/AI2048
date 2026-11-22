@@ -1,0 +1,27 @@
+﻿# dependencies
+node_modules/
+
+# build output
+dist/
+out/
+build/
+*.zip
+*.7z
+*.exe
+*.msi
+*.dmg
+*.AppImage
+
+# logs & temp
+*.log
+npm-debug.log*
+yarn-error.log*
+.npm/
+
+# editor / os
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

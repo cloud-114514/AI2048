@@ -1,0 +1,25 @@
+﻿{
+  "name": "ai2048",
+  "productName": "AI2048",
+  "version": "1.0.0",
+  "description": "A minimal 2048 merge puzzle written in vanilla HTML/CSS/JS, with an Electron desktop wrapper.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-packager . AI2048 --platform=win32 --arch=x64 --out=dist --overwrite --asar",
+    "dist:all": "electron-packager . AI2048 --all --out=dist --overwrite --asar"
+  },
+  "keywords": [
+    "2048",
+    "puzzle",
+    "game",
+    "vanilla-js",
+    "electron"
+  ],
+  "author": "cloud-114514 <3207855403@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.4.1"
+  }
+}
